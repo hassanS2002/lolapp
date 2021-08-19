@@ -1,5 +1,5 @@
 ## Deployed on 
-Open [https://hassans2002.github.io/lolapp/]https://hassans2002.github.io/lolapp/) to view it in the browser.
+Open [https://hassans2002.github.io/lolapp/](https://hassans2002.github.io/lolapp/) to view it in the browser.
 
 # Getting Started with Create React App
 
