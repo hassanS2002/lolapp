@@ -17,9 +17,7 @@ function App() {
     setLoading(true);
     Axios.get("https://ddragon.leagueoflegends.com/cdn/9.18.1/data/en_US/champion.json").then((response) => {
       setChamp(response.data.data);
-      // console.log('app champs', champ);
       setLoading(false);
-      // setFilteredData(response.data)
     });
   };
 
@@ -36,7 +34,7 @@ function App() {
           <div className="App">
             <Header data={champ} />
             <Switch>
-              <Route exact path="/" component={() => <HomePage data={champ} />} />
+              <Route exact path="/lolapp" component={() => <HomePage data={champ} />} />
               <Route path="/Moreinfo/:id" component={() => <Moreinfo data={champ} />} />
             </Switch>
           </div>

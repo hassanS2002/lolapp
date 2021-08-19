@@ -7,8 +7,6 @@
     color: white;
     text-decoration: none;
     color: #FFFFFF;
-
-  
 }
 
 .Name {
@@ -18,24 +16,20 @@
     cursor: pointer;
     text-decoration: none;
     color: #FFFFFF;
-
 }
 
 a {
     text-decoration: none;
     color: #FFFFFF;
-
 }
 
 
-
 @media only screen and (max-width: 480px) {
-
-.Name {
-    text-align: center; 
-    text-decoration: none;
-    color: #FFFFFF;}
-
+    .Name {
+        text-align: center; 
+        text-decoration: none;
+        color: #FFFFFF;
+    }
 
 }
 

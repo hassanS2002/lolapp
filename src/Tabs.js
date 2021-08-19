@@ -1,9 +1,6 @@
 
 import "./Tabs.css"
-import { useState, useEffect } from "react"
-
 import { Button } from '@material-ui/core';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 const Tabs = ({ data, setGetData }) => {
 
@@ -22,10 +19,6 @@ const Tabs = ({ data, setGetData }) => {
         setGetData(obj);
     }
 
-
-    // useEffect(() => {
-    //     console.log("newdata", newData);
-    // }, [newData]);
     return (
         <div className="TabVert">
             <Button onClick={() => filterData("")} color="primary"><b>ALL</b></Button>

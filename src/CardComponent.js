@@ -1,14 +1,9 @@
 import React from 'react';
 import { Button } from '@material-ui/core';
 import "./Card.css"
-import { useState } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Moreinfo from "./Moreinfo"
-
 
 const CardComponent = ({ getData }) => {
-    // console.log(data)
-
     return (
         <>
             {!getData ? (<p>loading</p>) : (Object.keys(getData).map(key => {
