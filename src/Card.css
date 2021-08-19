@@ -1,0 +1,47 @@
+.Each {
+    margin-bottom: 5rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+img{
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    width: 190px;
+}
+
+.ChampN {
+    font-size: 25px;
+    font-weight: 900;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 0.3rem;
+
+}
+
+.infobutt{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    img{
+        width: 250px;
+    }
+    .infobutt{
+        height: 3rem;
+    }
+
+    .Each {
+        margin-bottom: 1rem;    
+    }
+
+
+}
+    

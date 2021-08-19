@@ -1,0 +1,12 @@
+.imageContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
