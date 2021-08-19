@@ -1,0 +1,57 @@
+.NiChamp{
+    display: flex;
+    justify-content: center;
+    text-align:center ;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.Title{
+    margin-top: -1rem;
+    font-size: 36px;
+    
+}
+
+.desc{
+    box-shadow: 8px 8px 4px grey;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    
+}
+
+.mainimg{
+    margin-top: 0.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 2rem;
+}
+
+.card{
+    width: 60rem;
+    cursor: default;   
+}
+
+.image {
+    padding-top: 2rem;
+    width: 100px;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .container {display: flex; flex-direction: column;}
+    .card {width: 100%;}
+    .mainimg {width: 22rem; height: 17rem; border-radius: 2rem;}
+    .Title {font-size: 25px;}
+    
+
+   
+    
+    
+    }

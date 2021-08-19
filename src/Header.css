@@ -1,0 +1,40 @@
+
+.primary {
+    display: flex; 
+    flex-direction:row;
+    margin-top: -1rem;
+    background-color: #535bfa ;
+    color: white;
+    text-decoration: none;
+    color: #FFFFFF;
+
+  
+}
+
+.Name {
+    
+    text-align: center;
+    margin-left: 0.3rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+.Name {
+    text-align: center; 
+    text-decoration: none;
+    color: #FFFFFF;}
+
+
+}
+
