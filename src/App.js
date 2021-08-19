@@ -5,6 +5,7 @@ import Header from "./Header"
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Moreinfo from "./Moreinfo"
 import HomePage from "./HomePage";
+
 function App() {
 
   const [champ, setChamp] = useState("");
@@ -14,7 +15,7 @@ function App() {
 
   const getChamp = () => {
     setLoading(true);
-    Axios.get("http://ddragon.leagueoflegends.com/cdn/9.18.1/data/en_US/champion.json").then((response) => {
+    Axios.get("https://ddragon.leagueoflegends.com/cdn/9.18.1/data/en_US/champion.json").then((response) => {
       setChamp(response.data.data);
       // console.log('app champs', champ);
       setLoading(false);
@@ -32,7 +33,6 @@ function App() {
         <div>...Data Loading.....</div>
       ) : (
         <Router>
-
           <div className="App">
             <Header data={champ} />
             <Switch>

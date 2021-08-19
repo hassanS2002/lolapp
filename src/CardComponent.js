@@ -14,7 +14,7 @@ const CardComponent = ({ getData }) => {
             {!getData ? (<p>loading</p>) : (Object.keys(getData).map(key => {
                 return <div className="Each">
                     <h3 className="ChampN" >{key}</h3>
-                    <img src={"http://ddragon.leagueoflegends.com/cdn/10.16.1/img/champion/" + getData[key].image.full} />
+                    <img className="imageb" src={"https://ddragon.leagueoflegends.com/cdn/10.16.1/img/champion/" + getData[key].image.full} />
                     <Link to={`/MoreInfo/${getData[key].id}`}>
                         <Button className="infobutt" variant="contained" color="primary"><b>More Info</b></Button>
                     </Link>
